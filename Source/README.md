@@ -1,16 +1,20 @@
 # test_gonosen
 
-A new Flutter project.
+Dự án test công ty Gonosen
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Yêu cầu: 
+- Sử dung state management: bloc, getx, provider,...
+- Màn hình 1:
+ + Nhập tên vào textfield: YourName,
+ + Nhấn "Next Screen" để sang màn hình thứ 2
+- Màn hình 2:
+ + Hiển thị tên từ màn hình trước
+ + ListView: Data được get từ link: https://api.imgflip.com/get_memes
+ + Có tính năng reload
+ + Sắp sắp danh sách theo thứ tự từ bé đến lớn theo "width"
+ + Sử dụng các thuộc tính cho Item:
+  # avatar: "url"
+  # name : "name"
+  # width * height: "width" x "height". (VD: 1000x2000)
+  # Id Item: "id"
