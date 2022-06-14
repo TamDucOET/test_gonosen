@@ -2,8 +2,7 @@
 
 Dự án test công ty Gonosen
 
-## Getting Started
-Yêu cầu: 
+##Yêu cầu: 
 - Sử dung state management: bloc, getx, provider,...
 - Màn hình 1:
  + Nhập tên vào textfield: YourName,
@@ -14,7 +13,7 @@ Yêu cầu:
  + Có tính năng reload
  + Sắp sắp danh sách theo thứ tự từ bé đến lớn theo "width"
  + Sử dụng các thuộc tính cho Item:
-  # avatar: "url"
-  # name : "name"
-  # width * height: "width" x "height". (VD: 1000x2000)
-  # Id Item: "id"
+  avatar: "url"
+  name : "name"
+  width * height: "width" x "height". (VD: 1000x2000)
+  Id Item: "id"
