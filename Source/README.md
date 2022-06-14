@@ -2,12 +2,12 @@
 
 Dự án test công ty Gonosen
 
-##Yêu cầu: 
-- Sử dung state management: bloc, getx, provider,...
-- Màn hình 1:
+## Yêu cầu: 
+Sử dung state management: bloc, getx, provider,...
+Màn hình 1:
  + Nhập tên vào textfield: YourName,
  + Nhấn "Next Screen" để sang màn hình thứ 2
-- Màn hình 2:
+Màn hình 2:
  + Hiển thị tên từ màn hình trước
  + ListView: Data được get từ link: https://api.imgflip.com/get_memes
  + Có tính năng reload
