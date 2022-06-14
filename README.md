@@ -16,7 +16,7 @@ Màn hình 2:
  + Có tính năng reload
  + Sắp sắp danh sách theo thứ tự từ bé đến lớn theo "width"
  + Sử dụng các thuộc tính cho Item:
-  avatar: "url"
-  name : "name"
-  width * height: "width" x "height". (VD: 1000x2000)
+  avatar: "url", 
+  name : "name", 
+  width * height: "width" x "height". (VD: 1000x2000), 
   Id Item: "id"
